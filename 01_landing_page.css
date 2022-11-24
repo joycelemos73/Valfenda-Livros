@@ -1,0 +1,167 @@
+.barra-menu{
+  background-color: var(--white);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.logo-branca{
+  width: 105px;
+  margin: 0 78px
+}
+
+.links-menu{
+  margin: 0 78px
+}
+
+.item-menu{
+  display: inline;
+  margin: 0 0 0 15px;
+}
+
+.links-menu a{
+  text-decoration: none;
+  color: var(--black);
+}
+
+.links-menu a:hover{
+  color: var(--green);
+  text-decoration: underline;
+}
+
+
+.banner__titulo-itens p{
+  word-spacing: 1.5px;
+  width: 80%;
+  text-align: left;
+}
+
+.blocos_imagem_background{
+  background-color: white;
+}
+
+.botao-criar-conta-banner{
+  padding: 15px;
+  background: var(--green);
+  color: white;
+  font-weight: 400;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.blocos{
+  height: 100%;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  margin: 78px;
+}
+
+.blocos__img{
+  width: 50%;
+  align-items: center;
+  margin: 0 6em;
+  padding: 5%;
+}
+
+.blocos_imagem_background{
+  background-image: url(teste.jpg);
+  background-size: cover;
+  background-blend-mode: multiply;
+  background-position: top center;
+  padding: 8% 0;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.botao-criar-conta{
+  width: 30%;
+  padding: 15px;
+  background: var(--green);
+  color: white;
+  font-weight: 400;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.descricao__titulo{
+  font-weight: 700;
+  font-size: 48px;
+  color: var(--black);
+  margin: 0.1em 0.2em;
+}
+
+.bloco__descricao p{
+  padding: 2em 0;
+  font-size: 24px;
+  margin: 0 0.2em;
+}
+
+.rodape{
+  display: flex;
+  justify-content: space-around;
+  background-color: var(--dark-blue);
+  padding: 3em 0;
+}
+
+.lista-rodape{
+  display: block;
+  border-left: 1px solid var(--light-grey);
+  padding-left: 1em;
+}
+
+.rodape__item{
+  display: flex;
+  align-items: center;
+  margin: 0.6em 0;
+  color: var(--white);
+  font-size: 10px;
+}
+
+.rodape__titulo{
+  font-size: 12px;
+  color: var(--white);
+  font-weight: 700;
+  padding-bottom: 1em;
+}
+
+.newsletter{
+  padding-top: 100px;
+  padding-bottom: 100px;
+  text-align: center;
+  background-color: var(--white);
+}
+
+.newsletter h2 {
+  font-size: 24px;
+  font-weight: 700;
+  padding-bottom: 1em;
+}
+
+.newsletter p {
+  font-size: 20px;
+  font-weight: 400;
+  padding-bottom: 1em;
+}
+
+.standardinput{
+  padding: 10px;
+  margin: 5px;
+}
+
+.signup-newsletter{
+  width: auto;
+  padding: 12px;
+  color: white;
+  background-color: var(--dark-blue);
+  font-weight: bold;
+  font-size: 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 8px;
+}

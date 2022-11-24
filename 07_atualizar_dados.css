@@ -1,0 +1,27 @@
+.formulario-perfil{
+  padding: 30px;
+}
+
+.formulario-perfil label{
+  font-size: 14px;
+}
+
+.input-padrao-perfil {
+  margin: 10px 0 30px;
+  padding: 8px 25px;
+  width: 40%;
+  border-radius: 15px;
+  border-color: var(--light-grey);
+}
+
+.pronto{
+  width: 10%;
+  padding: 10px;
+  background: var(--green);
+  color: white;
+  font-weight: 400;
+  font-size: 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}

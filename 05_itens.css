@@ -1,0 +1,60 @@
+
+.banner-itens{
+  background-color: grey;
+  background-image: url(banner4.jpg);
+  background-size: cover ;
+  background-blend-mode: multiply;
+  height: 70vh;
+  background-position: top center;
+}
+
+.banner__titulo-itens{
+  color: var(--white);
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 1.5;
+  width: 70%;
+  margin-left: 10%;
+  text-align: left;
+  padding: 10% 0 10%;
+}
+.banner__titulo-itens p{
+  font-size: 20px;
+  color: var(--white);
+}
+
+.titulo_secao{
+  font-size: 40px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.itens-disponiveis_detalhes{
+  color: var(--green);
+  font-weight: bold;
+  font-size: 13px;
+  text-align: center;
+  border-color: var(--green);
+  cursor: pointer;
+  background: none;
+  text-decoration: underline;
+  padding-left: 10px;
+}
+
+.livros_disponíveis{
+  margin: 3vw 10vw;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 0  10px 30px 5px rgba(0,0,0,.15);
+}
+
+.livros_disponíveis td{
+  padding: 15px;
+  line-height: 1.3;
+}
+
+.titulo_tabela{
+  font-weight: 700;
+  letter-spacing: 1.5px;
+
+}

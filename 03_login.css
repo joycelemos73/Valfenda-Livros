@@ -1,0 +1,90 @@
+.barra-menu{
+  background-color: var(--white);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.logo-branca{
+  width: 105px;
+  margin: 0 78px
+}
+
+.links-menu{
+  margin: 0 78px
+}
+
+.item-menu{
+  display: inline;
+  margin: 0 0 0 15px;
+}
+
+.links-menu a{
+  text-decoration: none;
+  color: var(--black);
+}
+
+.links-menu a:hover{
+  color: var(--green);
+  text-decoration: underline;
+}
+
+.tela-inicial-login{
+  background-image: url(banner-signup-login.jpg);
+  background-size: cover;
+  background-blend-mode: multiply;
+  width: 100%;
+  height: 70vh;
+  padding: 60px 0 70px 0;
+  background-position: top center;
+}
+
+main h2{
+  font-size: 30px;
+  text-align: center;
+  padding: 1em 0 1em 0;
+  font-weight: 700;
+}
+
+.formulario-signup {
+  background-color: var(--background-color);
+  margin: 20px 150px;
+  padding: 1em ;
+  width: 30%;
+  border-radius: 20px;
+}
+
+form label {
+  display: block;
+  font-size: 20px;
+  margin: 0 0 30px;
+}
+
+.input-padrao {
+  display: block;
+  margin: 0 0 20px;
+  padding: 10px 25px;
+  width: 85%;
+  border-radius: 15px;
+  border-color: var(--white);
+}
+
+
+.botoes-signup{
+  font-size: 16px;
+  text-align: center;
+  padding-top: 0.6em;
+}
+
+form p{
+  padding: 0.6em;
+}
+
+form a{
+  text-decoration: none;
+  color: var(--green);
+  font-weight: 700;
+  font-size: 16px;
+  text-align: center;
+}
